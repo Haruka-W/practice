@@ -3,3 +3,36 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+ width: 960px;
+ margin: 50px auto;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.list-item {
+  padding: 20px;
+  list-style: none;
+}
+
+.list-item:nth-child(odd) {
+	background-color: gray;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: gold;
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
