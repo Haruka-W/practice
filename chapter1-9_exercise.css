@@ -30,22 +30,28 @@ main {
   position: absolute;
   top:0;
   left: 0;
+  padding: 5px
 }
 
 .flow-image01 {
-  height: 100px;
+  height: 150px;
+  background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .flow-image02 {
-  height: 100px;
+  height: 150px;
+  background-image: url(img/flow02.png);
   background-size: cover;
+  background-position: bottom;
 }
 
 .flow-image03 {
-  height: 100px;
+  height: 150px;
+  background-image: url(img/flow03.png);
   background-size: cover;
+  background-position: bottom;
 }
 
 .flow-box:last-child {
